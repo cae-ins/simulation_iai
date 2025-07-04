@@ -1,0 +1,1 @@
+python eloignement_time.py --mode minio --dt_path Data/dt_matrix_terrain.parquet --infra_path Data/infrastructures_matrix.parquet --pop_path Data/population_matrix.parquet --device cuda --clamp_max 3.0 --credentials_path credentials.json

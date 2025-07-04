@@ -1,0 +1,20 @@
+name: remoteness-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchaudio
+  - torchvision
+  - cudatoolkit=11.8 # Uncomment or change this line if you have a compatible NVIDIA GPU
+  - numpy # Added for numerical operations, specifically for index mapping
+  - pyspark # Added for Spark DataFrame operations
+  - pip
+  - pip:
+    - polars>=0.20.0
+    - boto3
+    - pyarrow
+    - tqdm
